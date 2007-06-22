@@ -1,5 +1,5 @@
 %define version 2.0.1
-%define rel     4
+%define rel     5
 %define release %mkrel %rel
 
 Summary:	The GNU Image Manipulation Program
@@ -9,7 +9,7 @@ Release:	%release
 License:	GPL
 Group:		Graphics
 URL:		http://www.gimp.org/
-Source0:	ftp://ftp.gimp.org/pub/gimp/v1.2/v%{version}/gimp-data-extras-%{PACKAGE_VERSION}.tar.bz2
+Source0:	ftp://ftp.gimp.org/pub/gimp/extras/gimp-data-extras-%{PACKAGE_VERSION}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 #BuildRequires:	gimp2-devel
