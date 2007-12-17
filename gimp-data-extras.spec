@@ -10,7 +10,6 @@ License:	GPL
 Group:		Graphics
 URL:		http://www.gimp.org/
 Source0:	ftp://ftp.gimp.org/pub/gimp/extras/gimp-data-extras-%{PACKAGE_VERSION}.tar.bz2
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 #BuildRequires:	gimp2-devel
 #Requires:	gimp2_0
