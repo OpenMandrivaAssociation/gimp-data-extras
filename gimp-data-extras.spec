@@ -8,7 +8,7 @@ Version:	%version
 Release:	%release
 License:	GPL
 Group:		Graphics
-URL:		http://www.gimp.org/
+URL:		https://www.gimp.org/
 Source0:	ftp://ftp.gimp.org/pub/gimp/extras/gimp-data-extras-%{PACKAGE_VERSION}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
