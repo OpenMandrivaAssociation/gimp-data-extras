@@ -15,6 +15,11 @@ BuildArch:	noarch
 #BuildRequires:	gimp2-devel
 #Requires:	gimp2_0
 Requires:	gimp > 2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gimp-devel
 
 %description
